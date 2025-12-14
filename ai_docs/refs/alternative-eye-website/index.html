@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternative Eye: Beyond the File | Crime Meets Code</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Motion Library -->
+    <script type="module" src="https://cdn.jsdelivr.net/npm/motion@10.18.0/dist/motion.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <div class="top-banner">
+            <p><strong>BREAKING</strong> New episodes dropping weekly — Subscribe to Alternative Eye on YouTube for
+                exclusive updates</p>
+        </div>
+        <header class="site-header">
+            <nav class="navbar">
+                <a href="#" class="nav-logo">ALTERNATIVE EYE</a>
+                <a href="#" class="nav-signin btn-outline">Sign In</a>
+            </nav>
+        </header>
+
+        <main>
+            <!-- Hero Section -->
+            <section class="hero">
+                <div class="hero-content">
+                    <h1 class="hero-title" data-animate="slide-up">
+                        <img src="assets/logo-hero.jpg" alt="Alternative Eye Logo" class="hero-logo">
+                    </h1>
+                    <p class="hero-subtitle" data-animate="fade-in">
+                        BEYOND THE FILE — WHERE CRIME MEETS CODE
+                    </p>
+                    <p class="hero-description" data-animate="fade-in">
+                        Decoding the systems of silence behind the world's most complex cases.
+                    </p>
+                    <div class="hero-actions" data-animate="fade-in">
+                        <a href="#" class="btn-brand btn-youtube">
+                            <svg class="brand-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                            </svg>
+                            Watch on YouTube
+                        </a>
+                        <a href="#" class="btn-brand btn-spotify">
+                            <svg class="brand-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141 4.32-1.32 9.78-.6 13.5 1.62.42.181.6.779.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.38 4.2-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z" />
+                            </svg>
+                            Listen on Spotify
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Breaking News Section -->
+            <section class="section breaking-news">
+                <div class="container">
+                    <div class="section-header" data-animate="fade-in">
+                        <span class="tag">NEW EPISODES WEEKLY</span>
+                        <h2>BREAKING NEWS</h2>
+                    </div>
+                    <div class="grid-3">
+                        <!-- Placeholder Cards -->
+                        <div class="card" data-animate="fade-in">
+                            <div class="card-image"></div>
+                            <div class="card-content">
+                                <span class="card-date">DEC 12, 2025</span>
+                                <h3>THE SILENT WITNESS IN CODE</h3>
+                                <p>How digital forensics cracked a cold case from 1998.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                        <div class="card" data-animate="fade-in">
+                            <div class="card-image"></div>
+                            <div class="card-content">
+                                <span class="card-date">DEC 05, 2025</span>
+                                <h3>PATTERN RECOGNITION</h3>
+                                <p>Using AI to identify serial offender markers.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                        <div class="card" data-animate="fade-in">
+                            <div class="card-image"></div>
+                            <div class="card-content">
+                                <span class="card-date">NOV 28, 2025</span>
+                                <h3>REMOTE VIEWING FILES</h3>
+                                <p>Declassifying the government's psychic spy program.</p>
+                                <a href="#" class="read-more">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Hosts Section -->
+            <section class="section hosts">
+                <div class="container">
+                    <div class="section-header" data-animate="fade-in">
+                        <h2>MEET THE HOSTS</h2>
+                    </div>
+
+                    <!-- Detailed Host Spotlight: Melissa Phelan -->
+                    <div class="host-spotlight" data-animate="fade-in">
+                        <div class="host-bio">
+                            <span class="pill-badge"><i class="icon-sparkle"></i> HOST & DECODER</span>
+                            <h2 class="host-name">MELISSA PHELAN</h2>
+
+                            <div class="bio-text">
+                                <p>With nearly <strong class="text-white">15 years of experience</strong> as a forensic
+                                    profiler
+                                    and remote viewer, I've spent my career decoding the minds of killers and uncovering
+                                    patterns that traditional methods overlook.</p>
+
+                                <p>I created <strong class="text-white">Alternative Eye</strong> because I saw a
+                                    critical gap in
+                                    how we approach cold cases and crime media. Too many cases go silent, trapped in
+                                    systems
+                                    that fail to evolve.</p>
+
+                                <p>This podcast is my answer—a platform where <span class="text-red">forensic
+                                        expertise</span>
+                                    meets <span class="text-blue">innovative thinking</span>, where world-class
+                                    specialists
+                                    collaborate in real-time, and where the public becomes part of the investigation.
+                                </p>
+                            </div>
+
+                            <blockquote class="host-quote">
+                                "We're not just reviewing cases—we're breaking down the walls of silence and pushing
+                                investigations forward in ways they've never been pushed before."
+                            </blockquote>
+
+                            <a href="https://linkedin.com" target="_blank" class="btn-linkedin">
+                                <svg class="brand-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                </svg>
+                                Follow Melissa Phelan on LinkedIn
+                            </a>
+                        </div>
+
+                        <div class="host-visuals">
+                            <div class="host-portrait-wrapper">
+                                <img src="assets/host-melissa-phelan.jpg" alt="Melissa Phelan" class="host-portrait">
+                            </div>
+
+                            <div class="expertise-card">
+                                <h3>EXPERTISE</h3>
+                                <ul class="expertise-items">
+                                    <li>
+                                        <div class="icon-circle icon-red">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path
+                                                    d="M3 6h18M7 21v-4m10 4v-4M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2m-9 7h10M5 6v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V6" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4>Forensic Profiler</h4>
+                                            <p>Behavioral analysis and criminal psychology with a track record of
+                                                breaking
+                                                complex cases through pattern recognition</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-circle icon-blue">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <circle cx="12" cy="12" r="10" />
+                                                <circle cx="12" cy="12" r="6" />
+                                                <circle cx="12" cy="12" r="2" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4>Remote Viewer</h4>
+                                            <p>Utilizing alternative investigative methodologies to access information
+                                                beyond
+                                                conventional forensic techniques</p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="icon-circle icon-gray">
+                                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4>Case Decoder</h4>
+                                            <p>Live decoding sessions that reveal hidden connections and breakthrough
+                                                insights
+                                                in real-time</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="experience-card">
+                                <span class="exp-number">15+</span>
+                                <div>
+                                    <h4>Years of Experience</h4>
+                                    <p>Decoding the psychology of killers and assisting with solving complex cases</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Detailed Host Spotlight: Dr. Wendy Watson -->
+                    <div class="host-spotlight reverse-layout" data-animate="fade-in">
+                        <div class="host-visuals">
+                            <div class="host-portrait-wrapper blue-glow">
+                                <img src="assets/dr-wendy-watson.jpg" alt="Dr. Wendy Watson" class="host-portrait">
+                            </div>
+                        </div>
+
+                        <div class="host-bio">
+                            <span class="pill-badge badge-blue"><i class="icon-user"></i> CO-HOST</span>
+                            <h2 class="host-name">DR. WENDY WATSON</h2>
+
+                            <div class="bio-text">
+                                <p>Dr. Wendy Watson brings a wealth of expertise and insight to Alternative Eye,
+                                    offering a unique perspective that complements our investigative approach.</p>
+
+                                <p>With her extensive background and collaborative spirit, she helps us explore cases
+                                    from multiple angles, ensuring we leave no stone unturned in our pursuit of truth.
+                                </p>
+
+                                <p>Together, we combine <span class="text-red">traditional expertise</span> with <span
+                                        class="text-blue">innovative methodologies</span>, creating a dynamic platform
+                                    for real investigative breakthroughs.</p>
+                            </div>
+
+                            <blockquote class="host-quote quote-blue">
+                                "My goal is to balance the scales of power and justice, even if only a little."
+                            </blockquote>
+
+                            <a href="https://linkedin.com" target="_blank" class="btn-linkedin btn-linkedin-blue">
+                                <svg class="brand-icon" viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                </svg>
+                                Follow Dr. Wendy Watson on LinkedIn
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Latest Episodes (Video Stack) -->
+                    <section class="section video-section">
+                        <div class="container">
+                            <div class="section-header center-header" data-animate="fade-in">
+                                <h2>LATEST EPISODES</h2>
+                                <p class="section-subtitle">Watch and listen as we decode the most complex cases.</p>
+                            </div>
+
+                            <div class="video-stack">
+                                <!-- 7 YouTube Placeholders -->
+                                <div class="video-placeholder" data-animate="fade-in">
+                                    <div class="video-embed-mock">
+                                        <span class="play-icon">▶</span>
+                                        <span class="video-label">Episode 1 Placeholder</span>
+                                    </div>
+                                </div>
+                                <div class="video-placeholder" data-animate="fade-in">
+                                    <div class="video-embed-mock">
+                                        <span class="play-icon">▶</span>
+                                        <span class="video-label">Episode 2 Placeholder</span>
+                                    </div>
+                                </div>
+                                <div class="video-placeholder" data-animate="fade-in">
+                                    <div class="video-embed-mock">
+                                        <span class="play-icon">▶</span>
+                                        <span class="video-label">Episode 3 Placeholder</span>
+                                    </div>
+                                </div>
+                                <div class="video-placeholder" data-animate="fade-in">
+                                    <div class="video-embed-mock">
+                                        <span class="play-icon">▶</span>
+                                        <span class="video-label">Episode 4 Placeholder</span>
+                                    </div>
+                                </div>
+                                <div class="video-placeholder" data-animate="fade-in">
+                                    <div class="video-embed-mock">
+                                        <span class="play-icon">▶</span>
+                                        <span class="video-label">Episode 5 Placeholder</span>
+                                    </div>
+                                </div>
+                                <div class="video-placeholder" data-animate="fade-in">
+                                    <div class="video-embed-mock">
+                                        <span class="play-icon">▶</span>
+                                        <span class="video-label">Episode 6 Placeholder</span>
+                                    </div>
+                                </div>
+                                <div class="video-placeholder" data-animate="fade-in">
+                                    <div class="video-embed-mock">
+                                        <span class="play-icon">▶</span>
+                                        <span class="video-label">Episode 7 Placeholder</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </section>
+
+            <!-- Featured Experts Section -->
+            <section class="section featured-experts">
+                <div class="container center-text">
+                    <div class="section-header center-header" data-animate="fade-in">
+                        <h2>FEATURED EXPERTS</h2>
+                        <p class="section-subtitle expert-subtitle">Watch this space! We'll be revealing our
+                            distinguished experts as their featured episodes roll out. Each brings unique expertise to
+                            help us uncover the truth.</p>
+                    </div>
+
+                    <div class="expert-showcase" data-animate="fade-in">
+                        <div class="expert-image-wrapper">
+                            <img src="assets/kerrie-droban-zhivago.jpg" alt="Kerrie Droban Zhivago"
+                                class="expert-image">
+                        </div>
+                        <a href="https://kerriedroban.com" target="_blank" class="btn-outline btn-visit">Visit
+                            Website</a>
+                    </div>
+                </div>
+            </section>
+
+    </div>
+    </section>
+
+    <!-- Soundbites Section (Instagram Carousel) -->
+    <section class="section soundbites-section">
+        <div class="container overflow-hidden">
+            <div class="section-header center-header" data-animate="fade-in">
+                <h2>SOUNDBITES</h2>
+                <p class="section-subtitle">Get a taste of our investigations with these compelling clips!</p>
+            </div>
+
+            <div class="carousel-container" data-animate="fade-in">
+                <button class="carousel-nav prev-btn" aria-label="Previous">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+
+                <div class="carousel-track-wrapper">
+                    <div class="carousel-track">
+                        <!-- Instagram Placeholders (Vertical 9:16) -->
+                        <div class="carousel-item">
+                            <div class="insta-placeholder">
+                                <div class="insta-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </div>
+                                <span class="insta-label">Clip 1</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="insta-placeholder">
+                                <div class="insta-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </div>
+                                <span class="insta-label">Clip 2</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="insta-placeholder">
+                                <div class="insta-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </div>
+                                <span class="insta-label">Clip 3</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="insta-placeholder">
+                                <div class="insta-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </div>
+                                <span class="insta-label">Clip 4</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="insta-placeholder">
+                                <div class="insta-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </div>
+                                <span class="insta-label">Clip 5</span>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="insta-placeholder">
+                                <div class="insta-icon">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                                    </svg>
+                                </div>
+                                <span class="insta-label">Clip 6</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-nav next-btn" aria-label="Next">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
+            </div>
+
+            <div class="soundbites-footer" data-animate="fade-in">
+                <p>Want to hear the full story? <a href="#" class="text-link">Listen to the complete episode</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="section feature-dark">
+        <div class="container">
+            <div class="feature-content" data-animate="fade-in">
+                <h2>DECODING KILLERS' MINDS</h2>
+                <p>We combine traditional investigative techniques with cutting-edge data analysis to
+                    see what
+                    others miss.</p>
+                <button class="btn-outline">Learn More</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expertise Section -->
+    <section class="section expertise">
+        <div class="container">
+            <div class="grid-split">
+                <div class="expertise-left" data-animate="fade-in">
+                    <h2 class="large-text">15 YEARS<br><span class="highlight">COMBINED
+                            EXPERIENCE</span></h2>
+                </div>
+                <div class="expertise-right">
+                    <ul class="expertise-list">
+                        <li data-animate="stagger">VIOLENT CRIME ANALYSIS</li>
+                        <li data-animate="stagger">FORENSIC PROFILING</li>
+                        <li data-animate="stagger">DIGITAL FORENSICS</li>
+                        <li data-animate="stagger">COLD CASE INVESTIGATION</li>
+                        <li data-animate="stagger">VICTIM ADVOCACY</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact">
+        <div class="container center-text">
+            <h2 data-animate="fade-in">READY TO DIVE DEEPER?</h2>
+            <p data-animate="fade-in">Subscribe for exclusive case files and bonus episodes.</p>
+            <form class="newsletter-form" data-animate="fade-in">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn-primary">Subscribe</button>
+            </form>
+
+            <div class="contact-footer" data-animate="fade-in">
+                <p>WOULD YOU LIKE YOUR LOVED ONE'S CASE FEATURED?</p>
+                <a href="mailto:contact@alternativeeye.com" class="btn-link">Email Us</a>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-content">
+            <div class="footer-logo">ALTERNATIVE EYE</div>
+            <p>&copy; 2025 Alternative Eye. All rights reserved.</p>
+        </div>
+    </footer>
+    </div>
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
