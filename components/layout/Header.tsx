@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 export function Header() {
   return (
@@ -6,12 +7,26 @@ export function Header() {
       <nav className="max-w-[1400px] mx-auto flex justify-between items-center">
         <Link 
           href="/" 
-          className="text-white no-underline font-heading text-2xl tracking-[0.1em] hover:text-gray-300 transition-colors"
+          className="text-white no-underline font-heading text-2xl tracking-[0.1em] hover:text-gray-300 transition-colors flex items-center gap-3"
         >
+          <Image
+            src="/assets/alternative-eye.png"
+            alt="Alternative Eye Logo"
+            width={40}
+            height={32}
+            className="w-10 h-8"
+            priority
+          />
           ALTERNATIVE EYE
         </Link>
         
         <div className="flex items-center gap-8">
+          <Link
+            href="/"
+            className="text-white no-underline text-sm font-medium hover:text-gray-300 transition-colors hidden sm:block"
+          >
+            Home
+          </Link>
           <Link
             href="/episodes"
             className="text-white no-underline text-sm font-medium hover:text-gray-300 transition-colors hidden sm:block"
@@ -36,12 +51,6 @@ export function Header() {
           >
             Contact
           </Link>
-          <a
-            href="#"
-            className="text-white no-underline border border-white px-6 py-2 rounded-full transition-all duration-300 text-sm font-medium hover:bg-white hover:text-black"
-          >
-            Sign In
-          </a>
         </div>
       </nav>
     </header>
