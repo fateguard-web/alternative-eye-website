@@ -35,7 +35,7 @@ export function Header() {
   }, [isMobileMenuOpen]);
 
   return (
-    <header className="fixed top-20 left-0 w-full z-[1000] py-6 px-8 bg-[#0a0a0a]/80 backdrop-blur-md">
+    <header className="fixed top-[64px] sm:top-[48px] left-0 w-full z-[1000] py-6 px-8 bg-[#0a0a0a]/80 backdrop-blur-md">
       <nav className="max-w-[1400px] mx-auto flex justify-between items-center">
         <Link 
           href="/" 

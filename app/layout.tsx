@@ -33,7 +33,7 @@ export default function RootLayout({
       >
         <TopBanner />
         <Header />
-        <main>{children}</main>
+        <main className="pt-[156px] sm:pt-[140px]">{children}</main>
         <Footer />
       </body>
     </html>

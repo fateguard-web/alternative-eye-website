@@ -6,7 +6,7 @@ import { BrandButton } from '@/components/ui/BrandButton';
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center text-center px-8 pt-48 pb-16 bg-gradient-radial from-[#1a1a1a] to-[#0a0a0a]">
+    <section className="relative min-h-screen flex items-center justify-center text-center px-8 pt-4 pb-16 bg-gradient-radial from-[#1a1a1a] to-[#0a0a0a]">
       <div className="max-w-4xl mx-auto">
         <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
