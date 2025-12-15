@@ -16,7 +16,7 @@ export default function EpisodesPage() {
   const totalPages = Math.ceil(MOCK_EPISODES.length / EPISODES_PER_PAGE);
 
   return (
-    <div className="min-h-screen py-32 px-4 sm:px-8 bg-[#0a0a0a]">
+    <div className="min-h-screen pt-48 pb-16 px-4 sm:px-8 bg-[#0a0a0a]">
       <div className="max-w-7xl mx-auto">
         {/* Page Header */}
         <div className="text-center mb-16">

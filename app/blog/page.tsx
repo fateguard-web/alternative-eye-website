@@ -10,7 +10,7 @@ export default function BlogPage() {
   return (
     <div className="min-h-screen flex items-center justify-center px-8 pt-48 pb-16">
       <div className="max-w-2xl mx-auto text-center">
-        <h1 className="text-6xl md:text-8xl font-heading mb-6">
+        <h1 className="text-5xl md:text-8xl font-heading mb-6">
           BLOG
         </h1>
         <p className="text-2xl text-gray-400 mb-8 font-body">

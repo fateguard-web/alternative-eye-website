@@ -41,7 +41,7 @@ export default async function EpisodePage({ params }: EpisodePageProps) {
   }
 
   return (
-    <div className="min-h-screen py-32 px-4 sm:px-8 bg-[#0a0a0a]">
+    <div className="min-h-screen pt-48 pb-16 px-4 sm:px-8 bg-[#0a0a0a]">
       <div className="max-w-5xl mx-auto">
         {/* Breadcrumb Navigation */}
         <Link

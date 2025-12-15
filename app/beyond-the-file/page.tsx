@@ -12,11 +12,11 @@ export const metadata: Metadata = {
 export default function BeyondTheFilePage() {
   return (
     <div className="min-h-screen">
-      <div className="px-4 sm:px-8 pt-32 pb-16">
+      <div className="px-4 sm:px-8 pt-48 pb-16">
         <div className="max-w-[1200px] mx-auto">
           {/* Header */}
           <div className="text-center mb-16">
-            <h1 className="text-4xl sm:text-5xl md:text-7xl font-heading mb-6">
+            <h1 className="text-5xl md:text-7xl font-heading mb-6">
               BEYOND THE FILE
             </h1>
             <p className="text-lg sm:text-xl text-gray-400 font-body max-w-4xl mx-auto">

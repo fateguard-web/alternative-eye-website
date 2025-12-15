@@ -1,9 +1,41 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { useState, useEffect, useRef } from 'react';
+import { MenuIcon, XIcon } from 'lucide-react';
 
 export function Header() {
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const menuRef = useRef<HTMLDivElement>(null);
+
+  const menuItems = [
+    { href: '/', label: 'Home' },
+    { href: '/episodes', label: 'Episodes' },
+    { href: '/beyond-the-file', label: 'Beyond the File' },
+    { href: '/case-intelligence', label: 'Case Intelligence' },
+    { href: '/contact', label: 'Contact' },
+  ];
+
+  // Close menu when clicking outside
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
+        setIsMobileMenuOpen(false);
+      }
+    };
+
+    if (isMobileMenuOpen) {
+      document.addEventListener('mousedown', handleClickOutside);
+    }
+
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [isMobileMenuOpen]);
+
   return (
-    <header className="fixed top-10 left-0 w-full z-[1000] py-6 px-8 bg-[#0a0a0a]/80 backdrop-blur-md">
+    <header className="fixed top-20 left-0 w-full z-[1000] py-6 px-8 bg-[#0a0a0a]/80 backdrop-blur-md">
       <nav className="max-w-[1400px] mx-auto flex justify-between items-center">
         <Link 
           href="/" 
@@ -20,37 +52,50 @@ export function Header() {
           ALTERNATIVE EYE
         </Link>
         
-        <div className="flex items-center gap-8">
-          <Link
-            href="/"
-            className="text-white no-underline text-sm font-medium hover:text-gray-300 transition-colors hidden sm:block"
+        {/* Desktop Navigation */}
+        <div className="hidden sm:flex items-center gap-8">
+          {menuItems.map((item) => (
+            <Link
+              key={item.href}
+              href={item.href}
+              className="text-white no-underline text-sm font-medium hover:text-gray-300 transition-colors"
+            >
+              {item.label}
+            </Link>
+          ))}
+        </div>
+
+        {/* Mobile Menu Button and Dropdown */}
+        <div className="sm:hidden relative" ref={menuRef}>
+          <button
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            className="text-white p-2 hover:text-gray-300 transition-colors"
+            aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
           >
-            Home
-          </Link>
-          <Link
-            href="/episodes"
-            className="text-white no-underline text-sm font-medium hover:text-gray-300 transition-colors hidden sm:block"
-          >
-            Episodes
-          </Link>
-          <Link
-            href="/beyond-the-file"
-            className="text-white no-underline text-sm font-medium hover:text-gray-300 transition-colors hidden sm:block"
-          >
-            Beyond the File
-          </Link>
-          <Link
-            href="/case-intelligence"
-            className="text-white no-underline text-sm font-medium hover:text-gray-300 transition-colors hidden sm:block"
-          >
-            Case Intelligence
-          </Link>
-          <Link
-            href="/contact"
-            className="text-white no-underline text-sm font-medium hover:text-gray-300 transition-colors hidden sm:block"
-          >
-            Contact
-          </Link>
+            {isMobileMenuOpen ? (
+              <XIcon className="w-6 h-6" />
+            ) : (
+              <MenuIcon className="w-6 h-6" />
+            )}
+          </button>
+
+          {/* Dropdown Menu */}
+          {isMobileMenuOpen && (
+            <div className="absolute right-0 top-full mt-2 w-56 bg-[#0a0a0a] border border-[#222] rounded-lg shadow-lg overflow-hidden z-[1001]">
+              <nav className="flex flex-col">
+                {menuItems.map((item, index) => (
+                  <Link
+                    key={`${item.href}-${index}`}
+                    href={item.href}
+                    onClick={() => setIsMobileMenuOpen(false)}
+                    className="text-white no-underline text-base font-medium hover:bg-[#1a1a1a] transition-colors py-4 px-6 border-b border-[#222] last:border-b-0"
+                  >
+                    {item.label}
+                  </Link>
+                ))}
+              </nav>
+            </div>
+          )}
         </div>
       </nav>
     </header>

@@ -80,7 +80,7 @@ export function HostsSection() {
         <HostSpotlight
           name="DR. WENDY WATSON"
           role="Co-Host"
-          badge="👤 CO-HOST"
+          badge="⭐ CO-HOST"
           badgeVariant="blue"
           bioText={wendyBio}
           quote="My goal is to balance the scales of power and justice, even if only a little."
