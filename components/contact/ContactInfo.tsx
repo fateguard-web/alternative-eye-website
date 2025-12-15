@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { MapPin, Facebook, Instagram, Youtube, Twitter, Linkedin } from 'lucide-react';
+import { Facebook, Instagram, Youtube, Twitter, Linkedin } from 'lucide-react';
 
 const socialLinks = [
   {
@@ -52,6 +52,77 @@ const socialLinks = [
   },
 ];
 
+export function MailingAddress() {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8, delay: 0.2 }}
+    >
+      <h3 className="text-xl font-heading mb-2">MAILING ADDRESS</h3>
+      <p className="text-gray-400 font-body">
+        Alternative Eye Productions<br />
+        P.O. Box 12345<br />
+        Los Angeles, CA 90001
+      </p>
+    </motion.div>
+  );
+}
+
+export function FollowUsSection() {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8, delay: 0.3 }}
+    >
+      <h3 className="text-xl font-heading mb-2">FOLLOW US</h3>
+      <p className="text-gray-400 font-body mb-4">
+        Stay connected for updates, behind-the-scenes content, and case discussions
+      </p>
+      <div className="flex gap-3 flex-wrap">
+        {socialLinks.map((social, index) => {
+          const IconComponent = social.icon;
+          
+          return (
+            <motion.a
+              key={social.name}
+              href={social.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.4, delay: 0.4 + index * 0.1 }}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.95 }}
+              className={`p-3 bg-white/5 border border-white/10 rounded-lg text-white transition-all duration-300 ${social.color} hover:bg-white/10 hover:border-white/20`}
+              aria-label={`Follow us on ${social.name}`}
+            >
+              <IconComponent />
+            </motion.a>
+          );
+        })}
+      </div>
+    </motion.div>
+  );
+}
+
+export function ResponseTimeNote() {
+  return (
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8, delay: 0.3 }}
+      className="pt-6 border-t border-white/10"
+    >
+      <p className="text-sm text-gray-500 font-body">
+        We typically respond within 24-48 hours. For urgent matters, 
+        please email us directly at the address above.
+      </p>
+    </motion.div>
+  );
+}
+
 export function ContactInfo() {
   return (
     <motion.div
@@ -60,94 +131,11 @@ export function ContactInfo() {
       transition={{ duration: 0.8, ease: 'easeOut' }}
       className="space-y-8"
     >
-      {/* Title Section */}
-      <div>
-        <motion.h2
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="text-4xl md:text-5xl font-heading mb-4"
-        >
-          GET IN TOUCH
-        </motion.h2>
-        <motion.p
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="text-lg text-gray-400 font-body leading-relaxed"
-        >
-          Have a case you&apos;d like us to investigate? Questions about the show? 
-          We&apos;d love to hear from you. Fill out the form and we&apos;ll get back 
-          to you as soon as possible.
-        </motion.p>
-      </div>
-
       {/* Contact Details */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.4 }}
-        className="space-y-6"
-      >
-        {/* Address */}
-        <div className="flex items-start gap-4">
-          <div className="mt-1 p-2 rounded-lg bg-white/5 border border-white/10">
-            <MapPin className="w-5 h-5 text-[#ff0000]" />
-          </div>
-          <div>
-            <h3 className="text-xl font-heading mb-1">MAILING ADDRESS</h3>
-            <p className="text-gray-400 font-body">
-              Alternative Eye Productions<br />
-              P.O. Box 12345<br />
-              Los Angeles, CA 90001
-            </p>
-          </div>
-        </div>
-
-        {/* Follow Us Section */}
-        <div>
-          <h3 className="text-xl font-heading mb-2">FOLLOW US</h3>
-          <p className="text-gray-400 font-body mb-4">
-            Stay connected for updates, behind-the-scenes content, and case discussions
-          </p>
-          <div className="flex gap-3 flex-wrap">
-            {socialLinks.map((social, index) => {
-              const IconComponent = social.icon;
-              
-              return (
-                <motion.a
-                  key={social.name}
-                  href={social.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  initial={{ opacity: 0, scale: 0.8 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  transition={{ duration: 0.4, delay: 0.5 + index * 0.1 }}
-                  whileHover={{ scale: 1.1 }}
-                  whileTap={{ scale: 0.95 }}
-                  className={`p-3 bg-white/5 border border-white/10 rounded-lg text-white transition-all duration-300 ${social.color} hover:bg-white/10 hover:border-white/20`}
-                  aria-label={`Follow us on ${social.name}`}
-                >
-                  <IconComponent />
-                </motion.a>
-              );
-            })}
-          </div>
-        </div>
-      </motion.div>
-
-      {/* Response Time Note */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8, delay: 0.5 }}
-        className="pt-6 border-t border-white/10"
-      >
-        <p className="text-sm text-gray-500 font-body">
-          We typically respond within 24-48 hours. For urgent matters, 
-          please email us directly at the address above.
-        </p>
-      </motion.div>
+      <div className="space-y-6">
+        <MailingAddress />
+        <FollowUsSection />
+      </div>
     </motion.div>
   );
 }

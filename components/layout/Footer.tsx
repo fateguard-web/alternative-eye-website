@@ -65,7 +65,7 @@ const socialLinks = [
 
 export function Footer() {
   return (
-    <footer className="py-16 px-8 border-t border-[#222] mt-16 bg-[#0a0a0a]">
+    <footer className="py-16 px-8 md:border-t md:border-[#222] md:mt-16 bg-[#0a0a0a]">
       <div className="max-w-[1400px] mx-auto">
         {/* Four-column grid layout */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
