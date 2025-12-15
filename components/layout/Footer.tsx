@@ -6,7 +6,7 @@ const navigationLinks = [
   { name: 'Home', href: '/' },
   { name: 'Episodes', href: '/episodes' },
   { name: 'Beyond the File', href: '/beyond-the-file' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Case Intelligence', href: '/case-intelligence' },
   { name: 'Contact', href: '/contact' },
 ];
 

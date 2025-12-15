@@ -25,10 +25,10 @@ export function Header() {
             Beyond the File
           </Link>
           <Link
-            href="/blog"
+            href="/case-intelligence"
             className="text-white no-underline text-sm font-medium hover:text-gray-300 transition-colors hidden sm:block"
           >
-            Blog
+            Case Intelligence
           </Link>
           <Link
             href="/contact"
