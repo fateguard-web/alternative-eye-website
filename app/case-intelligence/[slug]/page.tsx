@@ -140,7 +140,7 @@ export default async function ArticlePage({ params }: ArticlePageProps) {
   const siteUrl = getSiteUrl();
 
   return (
-    <div className="min-h-screen px-4 sm:px-8 pt-32 pb-16">
+    <div className="min-h-screen px-4 sm:px-8 pt-12 sm:pt-32 pb-16">
       <div className="max-w-7xl mx-auto">
         {/* Back to Articles Button */}
         <Link
