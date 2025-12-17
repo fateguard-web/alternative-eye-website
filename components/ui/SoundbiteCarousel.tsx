@@ -49,7 +49,7 @@ export function SoundbiteCarousel({ items }: SoundbiteCarouselProps) {
   };
 
   return (
-    <div className="relative max-w-[1400px] mx-auto flex items-center gap-4">
+    <div className="relative max-w-[1400px] mx-auto flex items-center gap-4 justify-center">
       <button
         onClick={handlePrev}
         className="bg-[rgba(255,255,255,0.05)] border border-[#333] text-white w-12 h-12 rounded-full flex items-center justify-center cursor-pointer transition-all duration-200 flex-shrink-0 z-10 hover:bg-[#ff0000] hover:border-[#ff0000]"
