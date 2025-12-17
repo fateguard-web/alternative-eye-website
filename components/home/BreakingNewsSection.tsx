@@ -2,25 +2,26 @@
 
 import { motion } from 'motion/react';
 import { NewsCard } from '@/components/ui/NewsCard';
+import { generateSlug } from '@/lib/utils';
 
 const newsItems = [
   {
     date: 'DEC 12, 2025',
     title: 'THE SILENT WITNESS IN CODE',
     description: 'How digital forensics cracked a cold case from 1998.',
-    href: '#',
+    href: `/case-intelligence/${generateSlug('THE SILENT WITNESS IN CODE')}`,
   },
   {
     date: 'DEC 05, 2025',
     title: 'PATTERN RECOGNITION',
     description: 'Using AI to identify serial offender markers.',
-    href: '#',
+    href: `/case-intelligence/${generateSlug('PATTERN RECOGNITION')}`,
   },
   {
     date: 'NOV 28, 2025',
     title: 'REMOTE VIEWING FILES',
     description: "Declassifying the government's psychic spy program.",
-    href: '#',
+    href: `/case-intelligence/${generateSlug('REMOTE VIEWING FILES')}`,
   },
 ];
 
