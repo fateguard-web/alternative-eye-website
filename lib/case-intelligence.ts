@@ -99,7 +99,10 @@ async function processMarkdown(content: string): Promise<string> {
     ALLOWED_ATTR: ['href', 'src', 'alt', 'title', 'class', 'id'],
   });
 
-  return sanitized;
+  // Fix image paths: remove /public prefix if present (Next.js serves from /public as root)
+  const fixedHtml = sanitized.replace(/src="\/public\//g, 'src="/');
+
+  return fixedHtml;
 }
 
 /**

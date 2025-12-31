@@ -48,10 +48,10 @@ export function HeroSection() {
           transition={{ duration: 0.5, delay: 1 }}
           className="flex gap-6 justify-center flex-wrap"
         >
-          <BrandButton variant="youtube" href="https://youtube.com">
+          <BrandButton variant="youtube" href="https://www.youtube.com/@AlternativeEyeBeyondtheFile">
             Watch on YouTube
           </BrandButton>
-          <BrandButton variant="spotify" href="https://spotify.com">
+          <BrandButton variant="spotify" href="https://open.spotify.com/show/1Ob7qtebpVxh1IG7pkzEic?si=8ddad381056a45da">
             Listen on Spotify
           </BrandButton>
         </motion.div>
