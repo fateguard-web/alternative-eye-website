@@ -4,8 +4,12 @@ import { motion } from 'motion/react';
 import { VideoPlaceholder } from '@/components/ui/VideoPlaceholder';
 import { YouTubeEmbed } from '@/components/episodes/YouTubeEmbed';
 
+type Episode =
+  | { type: 'youtube'; videoId: string; title: string }
+  | { type: 'placeholder'; label: string };
+
 export function VideoSection() {
-  const episodes = [
+  const episodes: Episode[] = [
     { type: 'youtube', videoId: 'DFFRhNk6KwU', title: 'Episode 1' },
     { type: 'placeholder', label: 'Episode 2 Placeholder' },
     { type: 'placeholder', label: 'Episode 3 Placeholder' },
