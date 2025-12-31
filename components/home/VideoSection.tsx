@@ -2,16 +2,17 @@
 
 import { motion } from 'motion/react';
 import { VideoPlaceholder } from '@/components/ui/VideoPlaceholder';
+import { YouTubeEmbed } from '@/components/episodes/YouTubeEmbed';
 
 export function VideoSection() {
   const episodes = [
-    'Episode 1 Placeholder',
-    'Episode 2 Placeholder',
-    'Episode 3 Placeholder',
-    'Episode 4 Placeholder',
-    'Episode 5 Placeholder',
-    'Episode 6 Placeholder',
-    'Episode 7 Placeholder',
+    { type: 'youtube', videoId: 'DFFRhNk6KwU', title: 'Episode 1' },
+    { type: 'placeholder', label: 'Episode 2 Placeholder' },
+    { type: 'placeholder', label: 'Episode 3 Placeholder' },
+    { type: 'placeholder', label: 'Episode 4 Placeholder' },
+    { type: 'placeholder', label: 'Episode 5 Placeholder' },
+    { type: 'placeholder', label: 'Episode 6 Placeholder' },
+    { type: 'placeholder', label: 'Episode 7 Placeholder' },
   ];
 
   return (
@@ -32,7 +33,19 @@ export function VideoSection() {
 
         <div className="flex flex-col gap-8">
           {episodes.map((episode, index) => (
-            <VideoPlaceholder key={index} label={episode} />
+            <motion.div
+              key={index}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 0.6 }}
+            >
+              {episode.type === 'youtube' ? (
+                <YouTubeEmbed videoId={episode.videoId} title={episode.title} />
+              ) : (
+                <VideoPlaceholder label={episode.label} />
+              )}
+            </motion.div>
           ))}
         </div>
       </div>
