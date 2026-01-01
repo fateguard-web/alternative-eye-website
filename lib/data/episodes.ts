@@ -31,7 +31,7 @@ export const MOCK_EPISODES: Episode[] = [
       'A forensic psychologist joins us to discuss what drives criminal behavior, the art of deception, and how investigators use psychological profiling to catch perpetrators.',
     publishDate: 'Nov 14, 2025',
     duration: '21:28',
-    youtubeId: 'fGHoHbPKIbw',
+    youtubeId: '7ReiyMruwHc',
     spotifyUrl: 'https://open.spotify.com/show/1Ob7qtebpVxh1IG7pkzEic',
   },
   {
