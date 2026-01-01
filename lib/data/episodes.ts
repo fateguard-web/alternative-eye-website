@@ -2,15 +2,15 @@ import { Episode } from '@/lib/types/episode';
 
 export const MOCK_EPISODES: Episode[] = [
   {
-    id: '001',
-    episodeNumber: 1,
-    title: 'The Truth Behind the Headlines: Investigative Journalism Meets True Crime',
+    id: 's1e7',
+    episodeNumber: 7,
+    title: 'S1E7 | Beyond BTK: The Secret Codes, Missing Girls & the Partner He Never named?',
     description:
-      'Join us as we explore the intersection of investigative journalism and true crime storytelling. We dive deep into cases that shaped our understanding of justice and unveil the systems of silence.',
-    publishDate: 'Dec 10, 2024',
-    duration: '45:23',
+      'Dennis Rader hid his darkest secrets in a coded document he called "Chapter 8." For years, everyone dismissed it as BTK fiction—until now. Profiler Melissa Phelan has decoded the puzzle, uncovering 14 unknown victims, the buried truth behind three missing girls, and a disturbing link between BTK and serial killer Charles Ray Vines.',
+    publishDate: 'Dec 10, 2025',
+    duration: '33:05',
     youtubeId: '5xteX9-INjI',
-    spotifyUrl: 'https://open.spotify.com/show/example',
+    spotifyUrl: 'https://open.spotify.com/episode/22JwblhUEzK9h1eXANHRDG?si=77gS0eCrTI2z1zvUv0NEYw',
   },
   {
     id: '002',
