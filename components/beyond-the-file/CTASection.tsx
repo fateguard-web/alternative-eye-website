@@ -47,7 +47,7 @@ export function CTASection() {
           <BrandButton variant="youtube" href="https://www.youtube.com/@AlternativeEyeBeyondtheFile">
             Watch on YouTube
           </BrandButton>
-          <BrandButton variant="spotify" href="https://open.spotify.com/show/1Ob7qtebpVxh1IG7pkzEic?si=8ddad381056a45da">
+          <BrandButton variant="spotify" href="https://open.spotify.com/show/1Ob7qtebpVxh1IG7pkzEic?si=a8fd1f0121764df7">
             Listen on Spotify
           </BrandButton>
         </motion.div>

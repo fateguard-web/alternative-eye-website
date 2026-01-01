@@ -22,8 +22,7 @@ export function ExpertiseSection() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-6xl lg:text-7xl font-heading leading-[0.9]">
-              15 YEARS<br />
-              <span className="text-gray-600">COMBINED EXPERIENCE</span>
+              PROVIDING AN ALTERNATIVE EYE TO INVESTIGATION
             </h2>
           </motion.div>
 
