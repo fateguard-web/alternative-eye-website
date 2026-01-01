@@ -57,7 +57,7 @@ export const MOCK_EPISODES: Episode[] = [
     spotifyUrl: 'https://open.spotify.com/episode/1soXaF4zDqBxNyHDmbyc1o?si=db87Ja3VSnCaQ6AvCF2SYg',
   },
   {
-    id: '006',
+    id: 's1e2',
     episodeNumber: 2,
     title: 'S1E2 | Trust the Code: Inside the Cipher of Dennis Rader (BTK)',
     description:
@@ -68,7 +68,7 @@ export const MOCK_EPISODES: Episode[] = [
     spotifyUrl: 'https://open.spotify.com/episode/6C9WefmUEvEqtqYvtthISx?si=uOp8IGjtTAeK_xwtqtPg4Q',
   },
   {
-    id: '007',
+    id: 's1e1',
     episodeNumber: 1,
     title: 'S1E1 | Dennis Rader BTK Killer- More Than Ten?',
     description:
