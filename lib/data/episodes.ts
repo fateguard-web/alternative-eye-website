@@ -13,15 +13,15 @@ export const MOCK_EPISODES: Episode[] = [
     spotifyUrl: 'https://open.spotify.com/episode/22JwblhUEzK9h1eXANHRDG?si=77gS0eCrTI2z1zvUv0NEYw',
   },
   {
-    id: '002',
-    episodeNumber: 2,
-    title: 'Decoding Criminal Patterns: Data Science in Crime Analysis',
+    id: 's1e6',
+    episodeNumber: 6,
+    title: 'S1E6 | Inside the Fager Family Homicides: Cracks, Codes, and the Cold Case Machine',
     description:
-      'How do data scientists help solve cold cases? We examine the role of technology and algorithms in modern criminal investigations and discuss breakthrough cases.',
-    publishDate: 'Dec 3, 2024',
-    duration: '52:14',
-    youtubeId: '5xteX9-INjI',
-    spotifyUrl: 'https://open.spotify.com/show/example',
+      'In this episode, we break down the 1987 Fager family homicides through victim micrology and a new decoding methodology that exposes why this case has stayed cold for decades. We explore the cipher tied to the investigation, the critical details overlooked, and the systemic hurdles that kept the truth buried.',
+    publishDate: 'Nov 27, 2025',
+    duration: '30:46',
+    youtubeId: 'ZsXBBIHcNzw',
+    spotifyUrl: 'https://open.spotify.com/episode/4pg0wLs4dLgj6ckANcNhb3',
   },
   {
     id: '003',
