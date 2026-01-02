@@ -44,12 +44,14 @@ function normalizeFrontmatter(data: any): ArticleFrontmatter {
 
 /**
  * Extract headings from markdown content for table of contents
+ * Includes both standard markdown headings (##, ###) and standalone bold lines (**text**)
  */
 function extractHeadings(content: string): Heading[] {
-  const headingRegex = /^(#{1,4})\s+(.+)$/gm;
   const headings: Heading[] = [];
-  let match;
 
+  // Extract standard markdown headings (##, ###, etc.)
+  const headingRegex = /^(#{1,4})\s+(.+)$/gm;
+  let match;
   while ((match = headingRegex.exec(content)) !== null) {
     const level = match[1].length as 1 | 2 | 3 | 4;
     const text = match[2].trim();
@@ -59,6 +61,20 @@ function extractHeadings(content: string): Heading[] {
       id,
       text,
       level,
+    });
+  }
+
+  // Extract standalone bold lines (entire line is **text**)
+  // Only matches lines where the entire line content is bold text
+  const boldLineRegex = /^\*\*(.+?)\*\*\s*$/gm;
+  while ((match = boldLineRegex.exec(content)) !== null) {
+    const text = match[1].trim();
+    const id = generateSlug(text);
+
+    headings.push({
+      id,
+      text,
+      level: 4, // Treat standalone bold lines as level 4 headings
     });
   }
 
@@ -103,6 +119,36 @@ async function processMarkdown(content: string): Promise<string> {
   const fixedHtml = sanitized.replace(/src="\/public\//g, 'src="/');
 
   return fixedHtml;
+}
+
+/**
+ * Convert bold-only paragraphs to h4 headings in HTML
+ * Finds paragraphs that are entirely bold (<p><strong>text</strong></p>)
+ * and converts them to h4 elements if they match extracted bold headings
+ */
+function convertBoldHeadingsToH4(html: string, headings: Heading[]): string {
+  let processedHtml = html;
+
+  // Filter to only level 4 headings (which include our bold-line headings)
+  const level4Headings = headings.filter((h) => h.level === 4);
+
+  level4Headings.forEach((heading) => {
+    // Match paragraphs that are entirely bold with the exact heading text
+    // Escape special regex characters in text
+    const escapedText = heading.text.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    // Allow for potential whitespace around the strong tag content
+    const paragraphRegex = new RegExp(
+      `<p>\\s*<strong>\\s*${escapedText}\\s*</strong>\\s*</p>`,
+      'gi'
+    );
+
+    processedHtml = processedHtml.replace(paragraphRegex, (match) => {
+      // Convert to h4 element with the original heading text
+      return `<h4>${heading.text}</h4>`;
+    });
+  });
+
+  return processedHtml;
 }
 
 /**
@@ -173,8 +219,11 @@ async function processArticleFile(filename: string): Promise<Article | null> {
     // Process markdown to HTML
     const htmlContent = await processMarkdown(content);
 
+    // Convert bold-only paragraphs to h4 headings
+    const htmlWithBoldHeadings = convertBoldHeadingsToH4(htmlContent, headings);
+
     // Add IDs to headings for TOC linking
-    const htmlWithIds = addHeadingIds(htmlContent, headings);
+    const htmlWithIds = addHeadingIds(htmlWithBoldHeadings, headings);
 
     // Calculate read time
     const readTimeResult = readingTime(content);

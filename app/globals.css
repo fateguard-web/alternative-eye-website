@@ -160,15 +160,19 @@
   }
   
   .article-content h2 {
-    @apply text-4xl font-heading font-bold mb-6 mt-14 leading-tight text-white;
+    @apply text-4xl font-heading font-bold mb-6 mt-14 leading-tight text-white tracking-wide;
   }
   
   .article-content h3 {
-    @apply text-3xl font-heading font-semibold mb-5 mt-12 leading-tight text-gray-200;
+    @apply text-2xl font-sans font-bold mb-5 mt-12 leading-tight text-gray-200 tracking-wide;
   }
   
   .article-content h4 {
-    @apply text-2xl font-heading font-semibold mb-4 mt-10 leading-tight text-gray-300;
+    @apply text-2xl font-sans font-bold mb-4 mt-10 leading-tight text-gray-300 tracking-wide;
+  }
+  
+  .article-content h5 {
+    @apply text-xl font-sans font-bold mb-3 mt-8 leading-tight text-gray-300 tracking-wide;
   }
   
   .article-content p {
@@ -181,7 +185,8 @@
   
   .article-content h2 + p,
   .article-content h3 + p,
-  .article-content h4 + p {
+  .article-content h4 + p,
+  .article-content h5 + p {
     @apply mt-0;
   }
   
@@ -215,7 +220,7 @@
   }
   
   .article-content a {
-    @apply text-[#ff0000] no-underline hover:underline;
+    @apply text-white no-underline hover:underline;
   }
   
   .article-content strong {

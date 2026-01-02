@@ -109,7 +109,7 @@ export function TableOfContents({ headings }: TableOfContentsProps) {
           onClick={() => setIsOpen(!isOpen)}
           className="w-full flex items-center justify-between p-4 bg-[#111] border border-[#222] rounded-lg hover:border-[#333] transition-colors"
         >
-          <span className="font-heading text-lg">Table of Contents</span>
+          <span className="font-heading text-xl">Table of Contents</span>
           {isOpen ? (
             <ChevronUp className="w-5 h-5 text-gray-400" />
           ) : (
@@ -127,7 +127,7 @@ export function TableOfContents({ headings }: TableOfContentsProps) {
       {/* Desktop: Sticky Sidebar */}
       <nav className="hidden lg:block sticky top-32 max-h-[calc(100vh-8rem)] overflow-y-auto">
         <div className="bg-[#111] border border-[#222] rounded-lg p-4">
-          <h2 className="font-heading text-lg mb-4 text-white">Contents</h2>
+          <h2 className="font-heading text-xl mb-4 text-white">Contents</h2>
           <ul className="space-y-1">{headings.map(renderTOCItem)}</ul>
         </div>
       </nav>

@@ -49,7 +49,7 @@ export function ArticleHeader({ frontmatter, readTime }: ArticleHeaderProps) {
       </div>
 
       {/* Description */}
-      <p className="text-xl text-gray-300 leading-relaxed max-w-3xl">
+      <p className="text-xl text-gray-300 leading-relaxed">
         {frontmatter.description}
       </p>
     </div>
