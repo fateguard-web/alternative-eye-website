@@ -39,7 +39,7 @@ export function Header() {
       <nav className="max-w-[1400px] mx-auto flex justify-between items-center">
         <Link 
           href="/" 
-          className="text-white no-underline font-heading text-2xl tracking-[0.1em] hover:text-gray-300 transition-colors flex items-center gap-3"
+          className="text-[#d4c5a9] no-underline font-heading text-2xl tracking-[0.1em] hover:text-[#e6d8c0] transition-colors flex items-center gap-3"
         >
           <Image
             src="/assets/alternative-eye.png"

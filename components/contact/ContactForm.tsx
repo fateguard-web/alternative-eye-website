@@ -7,6 +7,7 @@ import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
 import { Label } from '@/components/ui/label';
 import { Loader2, CheckCircle2, AlertCircle } from 'lucide-react';
+import { submitContactForm } from '@/app/actions/contact';
 
 interface FormData {
   name: string;
@@ -64,7 +65,7 @@ export function ContactForm() {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (!validateForm()) {
       return;
     }
@@ -72,23 +73,33 @@ export function ContactForm() {
     setStatus('submitting');
     setErrors({});
 
-    // Simulate form submission (replace with actual backend integration later)
     try {
-      await new Promise((resolve) => setTimeout(resolve, 1500));
-      
-      console.log('Form submitted:', formData);
-      
-      setStatus('success');
-      
-      // Reset form after 3 seconds
-      setTimeout(() => {
-        setFormData({ name: '', email: '', subject: '', message: '' });
-        setStatus('idle');
-      }, 3000);
+      const result = await submitContactForm(
+        formData.name,
+        formData.email,
+        formData.subject,
+        formData.message
+      );
+
+      if (result.success) {
+        setStatus('success');
+        // Auto-dismiss success message after 4 seconds
+        setTimeout(() => {
+          setStatus('idle');
+        }, 4000);
+
+        // Reset form after success message dismisses
+        setTimeout(() => {
+          setFormData({ name: '', email: '', subject: '', message: '' });
+        }, 4000);
+      } else {
+        setStatus('error');
+        setTimeout(() => setStatus('idle'), 5000);
+      }
     } catch (error) {
       console.error('Form submission error:', error);
       setStatus('error');
-      setTimeout(() => setStatus('idle'), 3000);
+      setTimeout(() => setStatus('idle'), 5000);
     }
   };
 
