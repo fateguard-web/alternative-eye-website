@@ -27,7 +27,11 @@ export async function submitContactForm(
       from: 'contact@thealternativeeye.com',
       to: email,
       subject: `Thanks for Contacting us ${name}`,
-      text: `Thank you for contacting The Alternative Eye. We will respond to your message as quickly as possible.
+      text: `Thank you for reaching out to Alternative Eye: Beyond the File. We've received your message and appreciate you taking the time to connect with us.
+
+Our team reviews every inquiry carefully. If your message requires a response, someone from our team will be in touch as soon as possible. We're committed to accuracy, integrity, and respectful engagement as we continue our work.
+
+Thank you for being part of a community that values truth, accountability, and thoughtful investigation.
 
 Best regards,
 
