@@ -1,7 +1,6 @@
 'use client';
 
 import { motion } from 'motion/react';
-import Link from 'next/link';
 import { YouTubeEmbed } from './YouTubeEmbed';
 import { Episode } from '@/lib/types/episode';
 import { Clock, Calendar } from 'lucide-react';
@@ -68,13 +67,6 @@ export function EpisodeCard({ episode, index }: EpisodeCardProps) {
               </svg>
               Listen on Spotify
             </a>
-
-            <Link
-              href={`/episodes/${episode.id}`}
-              className="inline-flex items-center justify-center px-4 py-2 bg-white text-black font-medium rounded-lg hover:bg-gray-200 transition-colors"
-            >
-              Episode Page
-            </Link>
           </div>
         </div>
       </div>
