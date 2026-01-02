@@ -71,8 +71,8 @@ export function HostsSection() {
           badgeVariant="red"
           bioText={melissaBio}
           quote="We're not just reviewing cases—we're breaking down the walls of silence and pushing investigations forward in ways they've never been pushed before."
-          imageSrc="/assets/host-melissa-phelan.jpg"
-          linkedinUrl="https://linkedin.com"
+          imageSrc="/assets/melissa-phelan.jpg"
+          linkedinUrl="https://www.linkedin.com/in/melissa-phelan-alternative-eye/"
           expertise={melissaExpertise}
           yearsExperience={15}
         />
@@ -85,7 +85,7 @@ export function HostsSection() {
           bioText={wendyBio}
           quote="My goal is to balance the scales of power and justice, even if only a little."
           imageSrc="/assets/dr-wendy-watson.jpg"
-          linkedinUrl="https://linkedin.com"
+          linkedinUrl="https://www.linkedin.com/in/wendylynwatson/"
           reverse
         />
       </div>
