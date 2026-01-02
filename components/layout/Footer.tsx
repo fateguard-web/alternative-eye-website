@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import Image from 'next/image';
-import { Facebook, Instagram, Youtube, Twitter, Linkedin } from 'lucide-react';
+import { Instagram, Youtube } from 'lucide-react';
 
 const navigationLinks = [
   { name: 'Home', href: '/' },
@@ -17,12 +17,6 @@ const legalLinks = [
 
 const socialLinks = [
   {
-    name: 'Facebook',
-    icon: Facebook,
-    url: 'https://facebook.com/alternativeeye',
-    ariaLabel: 'Follow us on Facebook',
-  },
-  {
     name: 'Instagram',
     icon: Instagram,
     url: 'https://instagram.com/alternativeeye',
@@ -33,12 +27,6 @@ const socialLinks = [
     icon: Youtube,
     url: 'https://youtube.com/@alternativeeye',
     ariaLabel: 'Follow us on YouTube',
-  },
-  {
-    name: 'X (Twitter)',
-    icon: Twitter,
-    url: 'https://x.com/alternativeeye',
-    ariaLabel: 'Follow us on X (Twitter)',
   },
   {
     name: 'TikTok',
@@ -54,12 +42,6 @@ const socialLinks = [
     ),
     url: 'https://tiktok.com/@alternativeeye',
     ariaLabel: 'Follow us on TikTok',
-  },
-  {
-    name: 'LinkedIn',
-    icon: Linkedin,
-    url: 'https://linkedin.com/company/alternativeeye',
-    ariaLabel: 'Follow us on LinkedIn',
   },
 ];
 

@@ -1,15 +1,9 @@
 'use client';
 
 import { motion } from 'motion/react';
-import { Facebook, Instagram, Youtube, Twitter, Linkedin } from 'lucide-react';
+import { Instagram, Youtube } from 'lucide-react';
 
 const socialLinks = [
-  {
-    name: 'Facebook',
-    icon: Facebook,
-    url: 'https://facebook.com/alternativeeye',
-    color: 'hover:text-[#1877f2]',
-  },
   {
     name: 'Instagram',
     icon: Instagram,
@@ -21,12 +15,6 @@ const socialLinks = [
     icon: Youtube,
     url: 'https://youtube.com/@alternativeeye',
     color: 'hover:text-[#ff0000]',
-  },
-  {
-    name: 'X (Twitter)',
-    icon: Twitter,
-    url: 'https://x.com/alternativeeye',
-    color: 'hover:text-[#1da1f2]',
   },
   {
     name: 'TikTok',
@@ -44,12 +32,6 @@ const socialLinks = [
     url: 'https://tiktok.com/@alternativeeye',
     color: 'hover:text-[#00f2ea]',
   },
-  {
-    name: 'LinkedIn',
-    icon: Linkedin,
-    url: 'https://linkedin.com/company/alternativeeye',
-    color: 'hover:text-[#0077b5]',
-  },
 ];
 
 export function MailingAddress() {
@@ -62,8 +44,7 @@ export function MailingAddress() {
       <h3 className="text-xl font-heading mb-2">MAILING ADDRESS</h3>
       <p className="text-gray-400 font-body">
         Alternative Eye Productions<br />
-        P.O. Box 12345<br />
-        Los Angeles, CA 90001
+        Los Angeles, CA
       </p>
     </motion.div>
   );
