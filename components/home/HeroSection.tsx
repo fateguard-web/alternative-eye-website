@@ -28,9 +28,9 @@ export function HeroSection() {
           initial={{ y: 20, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.5 }}
-          className="text-2xl md:text-3xl uppercase tracking-[0.2em] mb-4 opacity-80 font-heading"
+          className="text-2xl md:text-3xl lg:text-4xl uppercase tracking-[0.2em] mb-4 opacity-80 font-heading"
         >
-          Beyond the File — Where Crime Meets Code
+          Where <span className="text-[#ff0000]">CRIME</span> Meets <span className="text-[#87CEEB]">CODE</span>
         </motion.p>
 
         <motion.p
