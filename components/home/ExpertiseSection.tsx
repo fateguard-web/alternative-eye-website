@@ -14,7 +14,7 @@ export function ExpertiseSection() {
   return (
     <section className="py-24 px-8 bg-gradient-to-r from-[#0f0f0f] to-[#1a1a1a]">
       <div className="max-w-[1200px] mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <motion.div
             initial={{ opacity: 0, x: -20 }}
             whileInView={{ opacity: 1, x: 0 }}
