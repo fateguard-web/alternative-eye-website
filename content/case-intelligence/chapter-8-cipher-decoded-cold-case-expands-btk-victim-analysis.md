@@ -44,7 +44,9 @@ Through this analysis, Melissa has identified **15 or more alleged unknown victi
 
 ### Cynthia Dawn Kinney- PAWHUSKA, OK 1976- STILL MISSING
 
-### The Fager Family- Phillip, Sherri, Kelli Fager- WICHITA, KS 1987- UNSOLVED Melissa Witt- FORT SMITH, AR 1994- UNSOLVED
+### The Fager Family- Phillip, Sherri, Kelli Fager- WICHITA, KS 1987- UNSOLVED
+
+### Melissa Witt- FORT SMITH, AR 1994- UNSOLVED
 
 ### Amber Rene Barker- OKC, OK 1997- STILL MISSING
 
