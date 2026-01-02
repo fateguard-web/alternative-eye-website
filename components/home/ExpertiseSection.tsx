@@ -22,7 +22,7 @@ export function ExpertiseSection() {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-6xl lg:text-7xl font-heading leading-[0.9]">
-              PROVIDING AN ALTERNATIVE EYE TO INVESTIGATION
+              PROVIDING AN <span className="text-[#0000ff]">ALTERNATIVE EYE</span> TO INVESTIGATION
             </h2>
           </motion.div>
 

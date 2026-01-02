@@ -30,7 +30,7 @@ export function HeroSection() {
           transition={{ duration: 0.8, delay: 0.5 }}
           className="text-2xl md:text-3xl lg:text-4xl uppercase tracking-[0.2em] mb-4 opacity-80 font-heading"
         >
-          Where <span className="text-[#ff0000]">CRIME</span> Meets <span className="text-[#87CEEB]">CODE</span>
+          Where <span className="text-[#ff0000] font-heading">CRIME</span> Meets <span className="text-[#0000ff] font-heading">CODE</span>
         </motion.p>
 
         <motion.p
