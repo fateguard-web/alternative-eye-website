@@ -28,72 +28,81 @@ Alternative Eye is reporting new analytical developments stemming from continued
 
 Melissa Phelan’s ongoing analysis has identified direct correlations between names and victim indicators decoded from “CHAPTER 8” and a series of publicly released sketches recovered by authorities from beneath a concrete slab at Dennis Rader’s home property in 2023.
 
-### Unidentified Possible B.T.K Victim
+### 1. Unidentified Possible B.T.K Victim
 
-![Unidentified Possible B.T.K victim](/assets/unidentified-victim-sketch.png)
+This is believed to be one of B.T.K.'s victims.
+
+Osage County, Oklahoma investigators believe this sketch could be linked to a missing woman last seen in Southeast Kansas in 1991.
+
+Her name has not been made public in connection with Rader at this time.
+Investigators know from things Dennis said on this exact photograph that it was a drawing he created from an actual barn.
+
+If you have any information regarding the identity of this individual please call the Osage County, Oklahoma Sheriff's Office at 918-287-3131 or the KBI (Kansas Bureau of Investigation) at 800-572-7463.
+
+![Unidentified Possible B.T.K victim](/assets/unidentified-victim-sketch-1.png)
 
 According to publicly documented records, the sketches- three victim-related drawings and a fourth sketch depicting a barn structure- were recovered during law enforcement searches of Rader’s property prior to his arrest. These sketches have long existed in the public domain but had not previously been systematically analyzed alongside the full decoded framework of the “CHAPTER 8” cipher.
 
+### Sketch Depicting a Barn Structure
+
 ![three victim related drawings](/assets/three-victim-related-drawings.png)
 
-The cipher has been decoded by **Melissa Phelan**, a **15-year forensic profiler and crime analyst**, whose work focuses on long-form **cold case analysis** involving serial offenders. Melissa has been actively decoding “Chapter 8” since **February 22, 2025**, applying behavioral analysis, pattern recognition, and investigative context.
+Through pattern-based analysis, behavioral correlation, and comparative mapping, Melissa has matched the Kansas Bureau of Investigation (KBI) sketches to 3 individuals in the puzzle and victim references emerging from her decoding work. This includes a correlation between the barn sketch and a location of interest that KBI has previously sought to identify, which may be connected to an unknown child victim. **These are victims never before associated with Dennis Rader** - aside from Cynthia Kinney- decoded by an Osage County Sheriff in 2023.
 
-![Copy of Dennis Rader’s “CHAPTER 8” sent to a Wichita news station in 2004](/assets/chapter-8-sent-to-wichita-news-station-in-2004.png)
+### 2. Unidentified Possible B.T.K Victim
 
-Copy of Dennis Rader’s “CHAPTER 8” sent to a Wichita news station in 2004
+This is believed to be one of B.T.K.'s victims.
 
-According to Alternative Eye, this decoding supports investigative efforts initiated in **2023 by an Osage County Sheriff**, as part of a renewed BTK review examining potential **previously unknown victims**\- a common issue in cases involving **serial killers**. [FULL INTERVIEW: Osage Co. says BTK shared ‘fantasy’ of kidnapping girl from laundromat](https://www.kwch.com/2023/08/24/full-interview-osage-co-sheriff-dennis-rader-prime-suspect-multiple-unsolved-cases/)
+This would have been between the years of 1965 and 2005.
 
-Through this analysis, Melissa has identified **15 or more alleged unknown victims**, with **eight being publicly revealed as of October 2025 onward**, including last known locations and contextual details referenced in the cipher. In addition, decoding indicates references to the alleged burial locations of **three missing teenagers or children**, whom Rader claims responsibility for murdering.
+Possibly in the states of Kansas / Missouri / Oklahoma / Arkansas.
 
-## Suspected “Chapter 8” Listed Victims Publicly Revealed
+If you have any information regarding the identity of this individual please call the Osage County, Oklahoma Sheriff's Office at 918-287-3131 or the KBI (Kansas Bureau of Investigation) at 800-572-7463.
 
-### Cynthia Dawn Kinney- PAWHUSKA, OK 1976- STILL MISSING
+![Unidentified Possible B.T.K victim](/assets/unidentified-victim-sketch-2.png)
 
-### The Fager Family- Phillip, Sherri, Kelli Fager- WICHITA, KS 1987- UNSOLVED
+In recent weeks, Melissa’s continued work has further linked one of the decoded references to an unnamed alleged victim, strengthening the emerging pattern set being examined across the cipher, sketches, and known investigative materials.
 
-### Melissa Witt- FORT SMITH, AR 1994- UNSOLVED
+### 3. Unidentified Possible B.T.K Victim
 
-### Amber Rene Barker- OKC, OK 1997- STILL MISSING
+MISSOURI MISSING & UNSOLVED UNIDENTIFIED
 
-### Daniel John Smith- DEL CITY, OK 1997- SUSPICIOUS CIRCUMSTANCES
+This may have been one of B.T.K.'s victims.
 
-### Amy Armenta Anderson- PINAL COUNTY, AZ 1998- UNSOLVED
+This would have been between the years 1963 - 2005.
 
-In addition, Melissa’s decoding indicates references to the **burial locations of three missing teenagers or children**, whom Rader claims responsibility for killing. According to the analysis presented on Alternative Eye, these alleged burial sites are described with sufficient specificity that locations have been narrowed **down to individual addresses**, encompassing both public and private properties.
+Possibly in the states of Kansas / Missouri / Oklahoma / Arkansas.
 
-### Cynthia Kinney (left) and Amber Barker
+If you have any information regarding the possible identity of this individual please call the Osage County, Oklahoma Sheriff's Office at 918-287-3131 or the KBI (Kansas Bureau of Investigation) at 800-572-7463.
 
-![The ongoing “Chapter 8” decodings have allegedly listed names of Cynthia Kinney (left) and Amber Barker (both pictured above) and another unnamed missing child that has yet to be revealed to the public.](/assets/cynthia-kinney-amber-barker.png)
+![Unidentified Possible B.T.K victim](/assets/unidentified-victim-sketch-3.png)
 
-The ongoing “Chapter 8” decodings have allegedly listed names of Cynthia Kinney (left) and Amber Barker (both pictured above) and another unnamed missing child that has yet to be revealed to the public.
+All findings have been presented on Alternative Eye: Beyond the File as investigative analysis and interpretation, not as statements of fact or legal conclusions. The analytical process has been demonstrated transparently, allowing audiences to observe how correlations are identified rather than being presented with assertions alone.
 
-All findings have been presented as **investigative analysis and interpretation**, demonstrated live on the show, allowing viewers to observe the decoding methodology rather than relying on unsupported conclusions. Alternative Eye emphasizes that these revelations are not legal determinations, but rather analytical findings intended to support transparency, awareness, and responsible inquiry.
+Alternative Eye reiterates that this work does not replace official investigations and does not encourage public interference, site visits, or independent action. The purpose of the analysis is to responsibly examine publicly available materials, amplify potential victim narratives, and contribute to informed public-interest discussion within strict ethical boundaries.
 
-Melissa and the Alternative Eye team- including both **public-facing and silent partners across criminal justice, investigative, and analytical fields**\- state that their work is focused on **amplifying the voices of victims**, particularly those who may have been overlooked or excluded from official narratives.
+Melissa Phelan and the Alternative Eye team- including public-facing and silent partners across investigative and criminal justice disciplines- state that their continued efforts remain focused on bringing visibility to potential victims who may not yet have been formally identified, while respecting investigative integrity and the communities impacted by these cases.
 
-These findings were presented live on _Alternative Eye: Beyond the File_, allowing audiences of this **true crime podcast** to observe the analytical process rather than being presented with conclusions alone. The work reflects responsible engagement with **cold cases** and does not encourage public interference or site visits.
-
-Alternative Eye further emphasizes that it does not encourage public interference, site visits, or independent investigations by viewers. Any information shared is handled within strict ethical guidelines and is intended to support awareness and responsible engagement, not vigilantism.
-
-As investigations continue and additional analysis unfolds, Alternative Eye will provide further updates consistent with its ethics, audience conduct, and investigative standards.
+Further updates will be provided as analysis continues.
 
 ## REFERENCES:
 
-[Dennis Rader Wikipedia](https://en.wikipedia.org/wiki/Dennis_Rader)
+[Case File: Dennis Rader](https://www.aetv.com/articles/dennis-rader)
 
-[FULL INTERVIEW: Osage Co. says BTK shared ‘fantasy’ of kidnapping girl from laundromat](https://www.kwch.com/2023/08/24/full-interview-osage-co-sheriff-dennis-rader-prime-suspect-multiple-unsolved-cases/)
+[BTK serial killer’s chilling drawings released amid search for new victims](https://www.yahoo.com/news/btk-serial-killer-chilling-drawings-155652541.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAAIcwO3sMavBXMloZSHYvkDo_k59pEcF0ec85Gncvh9n7nRUnmB26e1fJCVXWtVG6Kw5Asqv-0noPx00UrfWJThjt7lyw8m2p8V48DxhdykekSI9f9UU6wdJ3MbLACgvUYCOyEoGW8swV-oqMU1qhQKBYzD-kRGAiQzq0rOWXt3n2)
 
-[PUZZLING CLUE Fresh evidence in BTK serial killer Dennis Rader case as tipster sends cops an old word puzzle tying him to new ‘victim’](https://www.the-sun.com/news/11379551/new-evidence-btk-killer-dennis-rader-puzzle-cythia-kinney/)
+[She has not ever been forgotten: Teen vanishes 47 years ago, officials believe BTK killed her](https://www.ksn.com/news/state-regional/she-has-not-ever-been-forgotten-teen-vanishes-47-years-ago-officials-believe-btk-killed-her/)
 
-[Serial killer's word puzzle solved after years revealing missing Oklahoma teen's name](https://local12.com/news/nation-world/serial-killers-word-puzzle-solved-after-years-revealing-missing-oklahoma-teens-name-btk-murder-mystery-crime-stalk-victim-mass-bind-torture-kill-dennis-rader-zodiac-letter-cipher-cryptogram-decode-game-detective)
+[BTK's Drawings Give Clues to Unsolved Cases](https://www.youtube.com/watch?v=_YMqa1jgyU0)
 
-[BTK puzzle may reveal identity, tactics](http://www.cnn.com/2005/LAW/03/03/btk.code/)
+[BTK In OK: Drawings released could reveal location of Okla. victim's remains](https://www.fox23.com/news/local/btk-in-ok-drawings-released-could-reveal-location-of-okla-victims-remains/article_0867cc48-4c17-11ee-8f10-2755f1f336d7.html)
 
-[Old word puzzle by convicted serial killer spells missing Oklahoma teen’s name, other clues](https://www.rochesterfirst.com/news/national-news/old-word-puzzle-by-convicted-serial-killer-spells-missing-oklahoma-teens-name-other-clues/)
+[Woman shown bound and gagged in BTK serial killer’s sick drawings may have been ID’d](https://nypost.com/2023/09/05/woman-in-btk-killers-sick-drawing-of-possibly-identified/)
 
-[BTK serial killer Dennis Rader sent a word puzzle to media — two decades later, it may close a missing persons case](https://www.abc.net.au/news/2024-05-19/btk-dennis-rader-word-puzzle-may-solve-cynthia_dawn-kinney-case/103856702)
+[BTK serial killer investigation: new clue unlocks missing 16-year-old girl’s name](https://www.theguardian.com/us-news/article/2024/may/15/btk-serial-killer-investigation-new-clue)
 
-[BTK In OK: Killer's old word search has investigators looking for new clues in 1976 Pawhuska cold case](https://www.fox23.com/news-btk-in-ok-killers-old-word-search-has-investigators-looking-for-new-clues-in-1976/article_5752b604-13ce-11ef-bdfd-2beb12d5b07f.html)
+[BTK investigation: Police seek help understanding serial killer sketches | Banfield](https://www.youtube.com/watch?v=SMb_jz1fhG4)
+
+[JUST REVEALED: DEEPLY DISTURBING SKETCHES OF GIRLS BOUND, GAGGED, DRAWN BY SERIAL KILLER DENNIS RADER](https://www.crimeonline.com/2023/09/04/just-revealed-deeply-disturbing-sketches-of-girls-bound-gagged-drawn-by-serial-killer-dennis-radar/)
 
 [**Alternative Eye Beyond the File**](https://www.youtube.com/@AlternativeEyeBeyondtheFile)
