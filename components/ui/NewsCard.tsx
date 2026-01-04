@@ -2,15 +2,17 @@
 
 import { motion } from 'motion/react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 interface NewsCardProps {
   date: string;
   title: string;
   description: string;
   href: string;
+  imageUrl?: string;
 }
 
-export function NewsCard({ date, title, description, href }: NewsCardProps) {
+export function NewsCard({ date, title, description, href, imageUrl }: NewsCardProps) {
   return (
     <motion.div
       initial={{ opacity: 0, y: 30 }}
@@ -19,8 +21,17 @@ export function NewsCard({ date, title, description, href }: NewsCardProps) {
       transition={{ duration: 0.6 }}
       className="bg-[#111] border border-[#222] rounded-lg overflow-hidden transition-all duration-300 hover:-translate-y-2 hover:border-[#333]"
     >
+      {/* Featured image with gradient overlay */}
       <div className="h-[200px] bg-[#222] relative overflow-hidden">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-[rgba(255,0,0,0.1)] to-[rgba(0,0,255,0.1)]" />
+        {imageUrl ? (
+          <Image
+            src={imageUrl}
+            alt={title}
+            fill
+            className="object-cover"
+          />
+        ) : null}
+        <div className="absolute inset-0 bg-gradient-to-br from-[rgba(255,0,0,0.1)] to-[rgba(0,0,255,0.1)]" />
       </div>
       <div className="p-6">
         <span className="block text-xs text-gray-500 mb-2">{date}</span>
