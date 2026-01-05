@@ -4,7 +4,7 @@ description: 'Alternative Eye is reporting significant developments following th
 authors: ['Melissa Phelan']
 publisher: 'Alternative Eye'
 category: 'Breaking News'
-imageUrl: '/assets/chapter-8-cipher-is-decoded.jpg'
+imageUrl: '/assets/chapter-8-decoded-cypher.jpg'
 imageWidth: 1200
 imageHeight: 630
 publishedAt: '2025-11-22T10:00:00Z'

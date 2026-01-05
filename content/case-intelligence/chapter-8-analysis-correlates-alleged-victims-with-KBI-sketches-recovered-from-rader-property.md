@@ -4,7 +4,7 @@ description: 'Alternative Eye is reporting new analytical developments stemming 
 authors: ['Melissa Phelan']
 publisher: 'Alternative Eye'
 category: 'Breaking News'
-imageUrl: '/assets/chapter-8-analysis-kbi-sketches.jpg'
+imageUrl: '/assets/chapter-8-analysis-with-kbi-sketches.jpg'
 imageWidth: 1200
 imageHeight: 630
 publishedAt: '2025-12-02T10:00:00Z'
