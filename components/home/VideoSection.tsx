@@ -35,7 +35,7 @@ export function VideoSection() {
           </p>
         </motion.div>
 
-        <div className="flex flex-col gap-8">
+        <div className="flex flex-col gap-12">
           {episodes.map((episode, index) => (
             <motion.div
               key={index}
