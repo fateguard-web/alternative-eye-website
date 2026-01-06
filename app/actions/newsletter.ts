@@ -23,7 +23,7 @@ Thank you for subscribing to The Alternative Eye We're excited to have you as pa
 
 Best regards,
 
-The The Alternative Eye Team`,
+The Alternative Eye Team`,
     });
 
     // Send notification email to contact@thealternativeeye.com
