@@ -39,7 +39,7 @@ export const MOCK_EPISODES: Episode[] = [
     episodeNumber: 4,
     title: 'S1E4 | Inside the Man Behind the Mask of Serial Killer Dennis Rader',
     description:
-      'Melissa Phelan and Dr. Wendy Watson decode Dennis Rader\'s Chapter 8 cipher, revealing connections to the 1987 Fager family murders and Cynthia Dawn Kinney\'s 2000 disappearance. Through detailed analysis, personal testimony, and expert psychological insight, this episode exposes how Rader\'s coded confessions point to unknown victims across multiple states—and why authorities have remained silent despite documented evidence. A deep dive into the man behind the BTK mask and the families still waiting for justice.',
+      'Melissa Phelan and Dr. Wendy Watson decode Dennis Rader\'s Chapter 8 cipher, revealing connections to the 1987 Fager family murders and Cynthia Dawn Kinney\'s 1976 disappearance. Through detailed analysis, personal testimony, and expert psychological insight, this episode exposes how Rader\'s coded confessions point to unknown victims across multiple states—and why authorities have remained silent despite documented evidence. A deep dive into the man behind the BTK mask and the families still waiting for justice.',
     publishDate: 'Nov 14, 2025',
     duration: '54:12',
     youtubeId: 'joCYaGAlzIs',
