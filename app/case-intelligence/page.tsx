@@ -1,6 +1,12 @@
+import type { Metadata } from 'next';
 import { getAllArticles } from '@/lib/case-intelligence';
 import { format } from 'date-fns';
 import { CaseIntelligenceClient } from './CaseIntelligenceClient';
+
+export const metadata: Metadata = {
+  title: 'Case Intelligence | Alternative Eye',
+  description: 'In-depth case analyses, investigative insights, and expert perspectives on the intersection of crime, technology, and justice.',
+};
 
 interface ArticleCardData {
   id: string;

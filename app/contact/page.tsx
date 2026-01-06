@@ -1,7 +1,11 @@
-'use client';
-
+import type { Metadata } from 'next';
 import { ContactForm } from '@/components/contact/ContactForm';
 import { ContactInfo, MailingAddress, FollowUsSection } from '@/components/contact/ContactInfo';
+
+export const metadata: Metadata = {
+  title: 'Contact Us | Alternative Eye',
+  description: 'Have a case you\'d like us to investigate? Questions about the show? We\'d love to hear from you. Fill out the form and we\'ll get back to you as soon as possible.',
+};
 
 export default function ContactPage() {
   return (
