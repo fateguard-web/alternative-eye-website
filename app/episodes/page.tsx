@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { EpisodesClient } from './EpisodesClient';
 
 export const metadata: Metadata = {
-  title: 'Episodes | Alternative Eye',
+  title: 'Episodes',
   description: 'Beyond the File — Where Crime Meets Code. Watch our latest episodes exploring true crime cases through investigative analysis and expert insights.',
 };
 

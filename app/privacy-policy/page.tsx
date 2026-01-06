@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | Alternative Eye',
+  title: 'Privacy Policy',
   description: 'Alternative Eye Privacy Policy - Learn how we collect, use, and protect your information.',
 };
 

@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Terms and Conditions | Alternative Eye',
+  title: 'Terms and Conditions',
   description: 'Alternative Eye Terms and Conditions - Review our terms of use and guidelines.',
 };
 
