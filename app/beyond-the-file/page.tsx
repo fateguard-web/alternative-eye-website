@@ -5,7 +5,7 @@ import { CTASection } from '@/components/beyond-the-file/CTASection';
 import { FeaturedCaseSection } from '@/components/beyond-the-file/FeaturedCaseSection';
 
 export const metadata: Metadata = {
-  title: 'Beyond the File | Alternative Eye',
+  title: 'Beyond the File',
   description: 'This isn\'t just another true crime podcast. We\'re breaking down the systems of silence, engaging the public, and using cutting-edge methods to decode cold cases in real-time.',
 };
 
