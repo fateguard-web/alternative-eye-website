@@ -2,6 +2,17 @@ import { Episode } from '@/lib/types/episode';
 
 export const MOCK_EPISODES: Episode[] = [
   {
+    id: 's1e8',
+    episodeNumber: 8,
+    title: 'S1E8 | Inside the Crime Scene: Decoding the Fager Case & the Melissa Witt Investigation',
+    description:
+      'This episode takes viewers inside the Fager home, where Melissa reconstructs the commission of the crime through pattern recognition, spatial analysis, and decoded behavioral markers. As the walkthrough unfolds, what emerges aligns with previously unidentified elements found within cipher material and communications linked to serial killer Dennis Rader (BTK) — raising critical investigative questions that demand deeper examination. From there, Detective Hawkins introduces a new focal point in this ongoing investigation: Fort Smith, Arkansas, and Melissa Witt.',
+    publishDate: 'Jan 6, 2026',
+    duration: '29:25',
+    youtubeId: 'g3KDg--PlDI',
+    spotifyUrl: 'https://open.spotify.com/show/1Ob7qtebpVxh1IG7pkzEic',
+  },
+  {
     id: 's1e7',
     episodeNumber: 7,
     title: 'S1E7 | Beyond BTK: The Secret Codes, Missing Girls & the Partner He Never named?',
