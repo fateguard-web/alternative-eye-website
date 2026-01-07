@@ -24,7 +24,7 @@ export function ExpertShowcase({
       transition={{ duration: 0.8 }}
       className="flex flex-col items-center gap-6"
     >
-      <div className="max-w-[400px] w-full rounded-lg overflow-hidden shadow-[0_0_30px_rgba(0,0,0,0.5)] border border-[#333]">
+      <div className="w-full max-w-[280px] sm:max-w-[400px] rounded-lg overflow-hidden shadow-[0_0_30px_rgba(0,0,0,0.5)] border border-[#333]">
         <Image
           src={imageSrc}
           alt={name}
