@@ -12,9 +12,8 @@ export const FEATURED_EXPERTS: Expert[] = [
   {
     id: 'aaron-hawkins',
     name: 'Aaron Hawkins',
-    title: 'Detective',
-    description:
-      'Detective at the Clackamas County Sheriffs Office assigned to CCSO DVERT (Domestic Violence Enhanced Response Team)',
+    title: 'Detective at Portland Oregon Sheriffs Office assigned to CCSO DVERT (Domestic Violence Enhanced Response Team)',
+    description: '',
     imageSrc: '/assets/Detective-Aaron-Hawkins.jpeg',
   },
 ];

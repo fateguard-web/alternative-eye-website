@@ -36,9 +36,11 @@ export function ExpertShowcase({
       <div className="text-center space-y-2">
         <h3 className="text-2xl font-heading">{name}</h3>
         <p className="text-lg text-gray-300 font-body">{title}</p>
-        <p className="text-base text-gray-400 font-body max-w-[600px]">
-          {description}
-        </p>
+        {description && (
+          <p className="text-base text-gray-400 font-body max-w-[600px]">
+            {description}
+          </p>
+        )}
       </div>
     </motion.div>
   );
