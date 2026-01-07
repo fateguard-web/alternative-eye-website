@@ -1,9 +1,39 @@
 'use client';
 
+import { useState, useEffect } from 'react';
 import { motion } from 'motion/react';
 import { ExpertShowcase } from '@/components/ui/ExpertShowcase';
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselPrevious,
+  CarouselNext,
+  type CarouselApi,
+} from '@/components/ui/carousel';
+import { CarouselDots } from '@/components/ui/CarouselDots';
+import { FEATURED_EXPERTS } from '@/lib/data/experts';
 
 export function ExpertsSection() {
+  const [api, setApi] = useState<CarouselApi>();
+  const [current, setCurrent] = useState(0);
+
+  useEffect(() => {
+    if (!api) return;
+
+    setCurrent(api.selectedScrollSnap());
+
+    const updateCurrent = () => {
+      setCurrent(api.selectedScrollSnap());
+    };
+
+    api.on('select', updateCurrent);
+
+    return () => {
+      api.off('select', updateCurrent);
+    };
+  }, [api]);
+
   return (
     <section className="py-24 px-8">
       <div className="max-w-[1200px] mx-auto text-center">
@@ -16,16 +46,35 @@ export function ExpertsSection() {
         >
           <h2 className="text-5xl font-heading">FEATURED EXPERTS</h2>
           <p className="text-xl text-gray-400 max-w-[700px] leading-relaxed font-body">
-            Watch this space! We&apos;ll be revealing our distinguished experts as their
-            featured episodes roll out. Each brings unique expertise to help us uncover the truth.
+            Watch this space! We&apos;ll be revealing our distinguished experts
+            as their featured episodes roll out. Each brings unique expertise to
+            help us uncover the truth.
           </p>
         </motion.div>
 
-        <ExpertShowcase
-          name="Kerrie Droban Zhivago"
-          imageSrc="/assets/kerrie-droban-zhivago.jpeg"
-          websiteUrl="https://kerriedroban.com"
-        />
+        <div className="relative">
+          <Carousel setApi={setApi} className="w-full max-w-4xl mx-auto">
+            <CarouselContent>
+              {FEATURED_EXPERTS.map((expert) => (
+                <CarouselItem key={expert.id}>
+                  <ExpertShowcase
+                    name={expert.name}
+                    title={expert.title}
+                    description={expert.description}
+                    imageSrc={expert.imageSrc}
+                  />
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+          <CarouselDots
+            totalSlides={FEATURED_EXPERTS.length}
+            currentSlide={current}
+            onDotClick={(index) => api?.scrollTo(index)}
+          />
+        </div>
       </div>
     </section>
   );

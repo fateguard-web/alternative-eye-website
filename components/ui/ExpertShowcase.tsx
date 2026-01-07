@@ -5,18 +5,24 @@ import { motion } from 'motion/react';
 
 interface ExpertShowcaseProps {
   name: string;
+  title: string;
+  description: string;
   imageSrc: string;
-  websiteUrl?: string;
 }
 
-export function ExpertShowcase({ name, imageSrc, websiteUrl }: ExpertShowcaseProps) {
+export function ExpertShowcase({
+  name,
+  title,
+  description,
+  imageSrc,
+}: ExpertShowcaseProps) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ once: true, amount: 0.3 }}
       transition={{ duration: 0.8 }}
-      className="flex flex-col items-center gap-8"
+      className="flex flex-col items-center gap-6"
     >
       <div className="max-w-[400px] w-full rounded-lg overflow-hidden shadow-[0_0_30px_rgba(0,0,0,0.5)] border border-[#333]">
         <Image
@@ -27,16 +33,13 @@ export function ExpertShowcase({ name, imageSrc, websiteUrl }: ExpertShowcasePro
           className="w-full h-auto block grayscale hover:grayscale-0 transition-all duration-300"
         />
       </div>
-      {websiteUrl && (
-        <a
-          href={websiteUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-12 py-4 text-base tracking-[0.1em] border border-white text-white rounded-full no-underline transition-all duration-300 hover:bg-white hover:text-black"
-        >
-          Visit Website
-        </a>
-      )}
+      <div className="text-center space-y-2">
+        <h3 className="text-2xl font-heading">{name}</h3>
+        <p className="text-lg text-gray-300 font-body">{title}</p>
+        <p className="text-base text-gray-400 font-body max-w-[600px]">
+          {description}
+        </p>
+      </div>
     </motion.div>
   );
 }
