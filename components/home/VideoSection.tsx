@@ -10,6 +10,7 @@ type Episode =
 
 export function VideoSection() {
   const episodes: Episode[] = [
+    { type: 'youtube', videoId: 'g3KDg--PlDI', title: 'S1E8' },
     { type: 'youtube', videoId: '5xteX9-INjI', title: 'Episode 1' },
     { type: 'youtube', videoId: 'ZsXBBIHcNzw', title: 'Episode 2' },
     { type: 'youtube', videoId: 'fGHoHbPKIbw', title: 'Episode 3' },
