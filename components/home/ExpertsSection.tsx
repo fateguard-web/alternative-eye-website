@@ -52,7 +52,7 @@ export function ExpertsSection() {
           </p>
         </motion.div>
 
-        <div className="relative px-12 sm:px-0">
+        <div className="relative px-2 sm:px-0">
           <Carousel setApi={setApi} className="w-full max-w-4xl mx-auto">
             <CarouselContent>
               {FEATURED_EXPERTS.map((expert) => (
@@ -66,8 +66,8 @@ export function ExpertsSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="left-0 sm:-left-12" />
-            <CarouselNext className="right-0 sm:-right-12" />
+            <CarouselPrevious className="-left-8 sm:-left-12" />
+            <CarouselNext className="-right-8 sm:-right-12" />
           </Carousel>
           <CarouselDots
             totalSlides={FEATURED_EXPERTS.length}
