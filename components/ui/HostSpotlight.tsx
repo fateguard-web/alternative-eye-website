@@ -16,9 +16,10 @@ interface HostSpotlightProps {
   badge: string;
   badgeVariant: 'red' | 'blue';
   bioText: string[];
-  quote: string;
+  quote?: string;
   imageSrc: string;
   linkedinUrl: string;
+  websiteUrl?: string;
   expertise?: ExpertiseItem[];
   yearsExperience?: number;
   reverse?: boolean;
@@ -33,6 +34,7 @@ export function HostSpotlight({
   quote,
   imageSrc,
   linkedinUrl,
+  websiteUrl,
   expertise,
   yearsExperience,
   reverse = false,
@@ -55,6 +57,11 @@ export function HostSpotlight({
   const linkedinStyles = {
     red: 'border-[#0077b5] bg-[rgba(0,119,181,0.1)] hover:bg-[rgba(0,119,181,0.3)] hover:shadow-[0_0_15px_rgba(0,119,181,0.3)]',
     blue: 'border-[#0077b5] bg-[rgba(0,119,181,0.1)] hover:bg-[rgba(0,119,181,0.3)] hover:shadow-[0_0_15px_rgba(0,80,255,0.4)]',
+  };
+
+  const websiteStyles = {
+    red: 'border-[#ff0000] bg-[rgba(255,0,0,0.1)] hover:bg-[rgba(255,0,0,0.3)] hover:shadow-[0_0_15px_rgba(255,0,0,0.3)]',
+    blue: 'border-[#0000ff] bg-[rgba(0,0,255,0.1)] hover:bg-[rgba(0,0,255,0.3)] hover:shadow-[0_0_15px_rgba(0,80,255,0.4)]',
   };
 
   return (
@@ -82,21 +89,40 @@ export function HostSpotlight({
           ))}
         </div>
 
-        <blockquote className={`border-l-4 pl-6 italic text-xl my-4 ${quoteStyles[badgeVariant]}`}>
-          &ldquo;{quote}&rdquo;
-        </blockquote>
+        {quote && (
+          <blockquote className={`border-l-4 pl-6 italic text-xl my-4 ${quoteStyles[badgeVariant]}`}>
+            &ldquo;{quote}&rdquo;
+          </blockquote>
+        )}
 
-        <a
-          href={linkedinUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-          className={`inline-flex items-center gap-4 px-6 py-3 border rounded-full text-white no-underline font-semibold text-sm w-fit transition-all duration-300 ${linkedinStyles[badgeVariant]}`}
-        >
-          <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
-          </svg>
-          Follow {name.split(' ')[0] === 'DR.' ? name.split(' ')[1] : name.split(' ')[0]} on LinkedIn
-        </a>
+        <div className="flex flex-wrap items-center gap-4">
+          <a
+            href={linkedinUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`inline-flex items-center gap-4 px-6 py-3 border rounded-full text-white no-underline font-semibold text-sm w-fit transition-all duration-300 ${linkedinStyles[badgeVariant]}`}
+          >
+            <svg className="w-6 h-6" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+            </svg>
+            Follow {name.split(' ')[0] === 'DR.' ? name.split(' ')[1] : name.split(' ')[0]} on LinkedIn
+          </a>
+
+          {websiteUrl && (
+            <a
+              href={websiteUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`inline-flex items-center gap-4 px-6 py-3 border rounded-full text-white no-underline font-semibold text-sm w-fit transition-all duration-300 ${websiteStyles[badgeVariant]}`}
+            >
+              <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
+              Visit Website
+            </a>
+          )}
+        </div>
       </div>
 
       {/* Host Visuals */}

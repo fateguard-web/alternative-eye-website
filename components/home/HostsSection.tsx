@@ -51,6 +51,12 @@ export function HostsSection() {
     "Together, we combine traditional expertise with innovative methodologies, creating a dynamic platform for real investigative breakthroughs.",
   ];
 
+  const kerrieBio = [
+    "Kerrie Droban Zhivago is an award-winning attorney and critically acclaimed true crime author based in Phoenix, Arizona. She is the author of Running with the Devil and Prodigal Father, Pagan Son, both of which explore the hidden realities of organized crime through a rare legal and human lens.",
+    "Kerrie's background as an attorney uniquely positions her within the true crime genre, where her commitment to truth and justice aligns seamlessly with her investigative work. Throughout her career, she has advocated for the vulnerable—guiding individuals not only through moments of crisis, but toward resilience and long-term strength.",
+    "Her voice brings credibility, compassion, and clarity to complex criminal narratives, offering a perspective that bridges the legal system and the human stories at the heart of every case.",
+  ];
+
   return (
     <section className="py-24 px-8">
       <div className="max-w-[1200px] mx-auto">
@@ -75,6 +81,18 @@ export function HostsSection() {
           linkedinUrl="https://www.linkedin.com/in/melissa-phelan-alternative-eye/"
           expertise={melissaExpertise}
           yearsExperience={15}
+        />
+
+        <HostSpotlight
+          name="KERRIE DROBAN ZHIVAGO"
+          role="Co-Host"
+          badge="⭐ CO-HOST"
+          badgeVariant="red"
+          bioText={kerrieBio}
+          imageSrc="/assets/kerrie-droban-zhivago-side-profile.jpg"
+          linkedinUrl="https://www.linkedin.com/in/kerrie-droban/"
+          websiteUrl="https://kerriedroban.com/"
+          reverse
         />
 
         <HostSpotlight
