@@ -66,8 +66,8 @@ export function ExpertsSection() {
                 </CarouselItem>
               ))}
             </CarouselContent>
-            <CarouselPrevious className="-left-8 sm:-left-12 md:top-[35%] md:-translate-y-1/2" />
-            <CarouselNext className="-right-8 sm:-right-12 md:top-[35%] md:-translate-y-1/2" />
+            <CarouselPrevious className="-left-8 sm:-left-12 top-[35%] -translate-y-1/2" />
+            <CarouselNext className="-right-8 sm:-right-12 top-[35%] -translate-y-1/2" />
           </Carousel>
           <CarouselDots
             totalSlides={FEATURED_EXPERTS.length}
