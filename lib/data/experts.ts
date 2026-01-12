@@ -16,5 +16,12 @@ export const FEATURED_EXPERTS: Expert[] = [
     description: '',
     imageSrc: '/assets/Detective-Aaron-Hawkins.jpeg',
   },
+  {
+    id: 'jim-fuda',
+    name: 'JIM FUDA',
+    title: 'Jim Fuda Public Safety Advisor and Vice Chairman of Crime Stoppers Global Solutions',
+    description: '',
+    imageSrc: '/assets/jim-fuda.jpg',
+  },
 ];
 

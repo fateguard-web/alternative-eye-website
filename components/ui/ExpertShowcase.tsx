@@ -30,7 +30,7 @@ export function ExpertShowcase({
           alt={name}
           width={400}
           height={500}
-          className="w-full h-auto block grayscale hover:grayscale-0 transition-all duration-300"
+          className="w-full h-auto block grayscale"
         />
       </div>
       <div className="text-center space-y-2">
