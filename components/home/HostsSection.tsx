@@ -52,9 +52,7 @@ export function HostsSection() {
   ];
 
   const kerrieBio = [
-    "Kerrie Droban Zhivago is an award-winning attorney and critically acclaimed true crime author based in Phoenix, Arizona. She is the author of Running with the Devil and Prodigal Father, Pagan Son, both of which explore the hidden realities of organized crime through a rare legal and human lens.",
-    "Kerrie's background as an attorney uniquely positions her within the true crime genre, where her commitment to truth and justice aligns seamlessly with her investigative work. Throughout her career, she has advocated for the vulnerable—guiding individuals not only through moments of crisis, but toward resilience and long-term strength.",
-    "Her voice brings credibility, compassion, and clarity to complex criminal narratives, offering a perspective that bridges the legal system and the human stories at the heart of every case.",
+    "Kerrie Droban Zhivago is an award winning true crime author, attorney and investigative journalist. She is a frequent commentator on numerous television programs including 20/20, American Greed, Investigation ID, Homicide City, Oxygen's \"Deadly Vows\" A&E's series \"Secrets of the Hells Angels\", VICE, History Channel, Netflix's \"Deep Undercover.\" Her series, \"Gangland Undercover\" is now streaming on Hulu. Droban also produces and hosts the true crime podcast \"Crime Stands Still.\"",
   ];
 
   return (
@@ -89,6 +87,7 @@ export function HostsSection() {
           badge="⭐ CO-HOST"
           badgeVariant="red"
           bioText={kerrieBio}
+          quote="Silence remains, inescapably, a form of speech. -Susan Sontag"
           imageSrc="/assets/kerrie-droban-zhivago-side-profile.jpg"
           linkedinUrl="https://www.linkedin.com/in/kerrie-droban/"
           websiteUrl="https://kerriedroban.com/"
