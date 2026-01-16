@@ -10,7 +10,7 @@ export const MOCK_EPISODES: Episode[] = [
     publishDate: 'Jan 15, 2026',
     duration: '45:57',
     youtubeId: 'JxBtgLkUplE',
-    spotifyUrl: 'https://open.spotify.com/show/1Ob7qtebpVxh1IG7pkzEic?si=77c9cbb39a6f428b',
+    spotifyUrl: 'https://open.spotify.com/episode/5DEIIylyyPUerPRg9uiywh',
   },
   {
     id: 's1e8',
