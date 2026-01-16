@@ -97,7 +97,6 @@ Cynthia Dawn Kinney and connection made by Osage County in 2023 to the word puzz
 ## Conclusion
 
 The question remains open and unresolved: **how did the cipher’s author demonstrate awareness of information that was not publicly available in 2004?** Until that question is answered, the material warrants continued forensic attention.
-Dennis
 
 ![Dennis Rader in court after his apprehension in 2005](/assets/dennis-rader-in-court-after-his-apprehension-in-2005.png)
 
