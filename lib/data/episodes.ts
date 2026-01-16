@@ -2,6 +2,17 @@ import { Episode } from '@/lib/types/episode';
 
 export const MOCK_EPISODES: Episode[] = [
   {
+    id: 's1e9',
+    episodeNumber: 9,
+    title: 'S1E9 | Leadership That Restores Hope | Jim Fuda, Crime Stoppers & the Power of Community',
+    description:
+      'In this foundational episode of Alternative Eye: Beyond the File, host Melissa Phelan sits down with Jim Fuda, Vice Chair of Crime Stoppers Global Solutions, for an honest and deeply human conversation about leadership, accountability, and restoring trust between communities and public safety systems. With more than 33 years in law enforcement, over 300 hostage and barricade responses, and decades of experience in physical security, international training, and community-based crime prevention, Jim brings a rare perspective on what it truly takes to move cases forward — without compromising integrity.',
+    publishDate: 'Jan 15, 2026',
+    duration: '45:57',
+    youtubeId: 'JxBtgLkUplE',
+    spotifyUrl: 'https://open.spotify.com/show/1Ob7qtebpVxh1IG7pkzEic?si=77c9cbb39a6f428b',
+  },
+  {
     id: 's1e8',
     episodeNumber: 8,
     title: 'S1E8 | Inside the Crime Scene: Decoding the Fager Case & the Melissa Witt Investigation',
